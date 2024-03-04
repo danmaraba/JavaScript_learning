@@ -16,7 +16,7 @@ function isRose(cat){
 }
 isRose();
 
-// switch
+// switch- has many cases with statements. Executes the statement belonging to the matching case
 
 function isRose(cat){
     switch(cat){
@@ -29,3 +29,6 @@ function isRose(cat){
     }
 };
 isRose();
+
+// variable declarations are not expressions because they do not return a value. However, variable assignments and variable lookups are expressions because they resolve to a value contained in the variable.
+// A block statement is a pair of curly braces used to group JavaScript statements. It plays a role in conditional statements, loops and functions. Block statements return the value of the last evaluated expression inside the curly braces.

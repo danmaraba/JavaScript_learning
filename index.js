@@ -93,3 +93,12 @@ switch (order) {
     break;
 };
 
+// The default keyword is similar to the else clause in an if...else construction. It specifies a set of statements to run after all of the switch statement's cases have been checked. However, it is different from an else in that the only time it does not run is if the engine hits a break in one of the case statements. If you only want one code block in your switch statement to execute, you should always include the break keyword.
+// Logical Operators
+// The logical NOT operator (!) negates the truthiness of an expression. It is also known as bang operator. We can also use the two NOT operators to convert any value into a boolean.
+// The logical AND (&&) operator takes two expressions i.e., expression1 && expression2; and returns the value of the first expression if the first expression is falsey and returns the value of the second expression if the first expression is truthy
+false && 1;
+console.log(NaN && false);
+console.log('string' && "");
+// 
+

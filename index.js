@@ -100,5 +100,5 @@ switch (order) {
 false && 1;
 console.log(NaN && false);
 console.log('string' && "");
-// 
+// To express the concept of between in JavaScript we use the logical operator AND (&&)
 

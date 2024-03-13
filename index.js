@@ -157,3 +157,14 @@ console.log(array[1]());
 // Always need {}                        Does not always need {}
 // Always need ()                        Single parameters don't require ()
 // Returns require the return keyword    Implicit return
+
+// JavaScript has different ways of writing functions i.e., function declaration, function expression and arrow functions
+// function expression
+const printBook=function(book){
+    return book;
+}
+printBook("Miracle Morning");
+
+// Arrow function
+const printBookArrow=book=>book;
+printBookArrow("Eloquent JavaScript");

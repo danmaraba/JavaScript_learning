@@ -112,3 +112,17 @@ console.log(Math.round(0.6));
 console.log(Math.max(1,2,3,4,5));
 console.log(Math.min(1,2,3,4,5));
 // Math.random()-generates a random number between 0 (inclusive) and 1 (exclusive)
+
+// Paramaters are locally-scoped variables that are usable to inside the function.
+// Functions can be passed arguments, given default arguments etc.
+function razzle(lawyer='Billy', target='em'){
+    console.log(`${lawyer} razzle-dazzles ${target}`)
+}
+razzle();
+razzle("Methuselah", "T'challah");
+
+function saturdayFun(activity='roller-skate'){
+    console.log(`This Saturday, I want to ${activity}`);
+}
+saturdayFun();
+saturdayFun('run a marathon')

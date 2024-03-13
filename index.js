@@ -168,3 +168,9 @@ printBook("Miracle Morning");
 // Arrow function
 const printBookArrow=book=>book;
 printBookArrow("Eloquent JavaScript");
+
+// callback functions-when we pass a function into another function wherein it might be invoked, we refer to the passed function as a callback. The term derives from the fact that the function isn't invoked immediately-instead it's called back, or invoked at a later point. As an example, callback functions are commonly used to respons to user actions, we may define a callback to execute the appropriate code when the user clicks an element on the page.
+function iReturnThings(thing){
+    return thing;
+}
+console.log(iReturnThings(function(){return 4+5;})());

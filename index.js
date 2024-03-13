@@ -101,4 +101,14 @@ false && 1;
 console.log(NaN && false);
 console.log('string' && "");
 // To express the concept of between in JavaScript we use the logical operator AND (&&)
-
+// JavaScript stores numbers in binary format (base-2), as a series of 1s and 0s, but it displays numbers in the more human-readable decimal format.
+// JavaScript evaluates compound arithmetic operations by following the standard order of operations used in basic math. Anything in parentheses has the highest priority, exponentiation is second, then multiplication, division, remainder and finally addition and subtraction, in order from left to right.
+// JavaScript provides three methods for rounding numbers i.e., Math.ceil()-rounds the number up, Math.floor()-rounds the number down and Math.round()-rounds the number either up or down, whichever is nearest.
+console.log(Math.ceil(0.5));
+console.log(Math.floor(0.4));
+console.log(Math.round(0.4));
+console.log(Math.round(0.6));
+// Math.max-accepts a number of arguments and returns the highest value while Math.min accepts a number of arguments too and returns the least value.
+console.log(Math.max(1,2,3,4,5));
+console.log(Math.min(1,2,3,4,5));
+// Math.random()-generates a random number between 0 (inclusive) and 1 (exclusive)
